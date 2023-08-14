@@ -14,8 +14,8 @@ app.use("/",router);
 app.get("/",(req,res)=>{
   res.json({
     message : "fine",
-  }
-})
+  })
+});
 
 const PORT = process.env.PORT || 5000;
 
